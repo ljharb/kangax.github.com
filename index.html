@@ -11,73 +11,87 @@
       a:focus, a:hover { text-decoration: none; }
       .year { font-size: 1em; font-family: monospace; background: #777; color: #fff;
               padding: 1px 5px; margin-left: 7px; font-weight: bold; }
+
+      .year-2012, .year-2011, .current {
+        background-color: rgb(125,190,66);
+      }
+      .year-2010, .year-2009 {
+        background-color: rgb(244,180,36);
+      }
+      .year-2008, .year-2007 {
+        background-color: rgb(234,74,93) ;
+      }
     </style>
   </head>
   <body>
-    <h2 style="margin-left: 20px">some stuff by kangax</h2>
+    <h2 style="margin-left: 20px">stuff by kangax</h2>
 
     <ul>
       <li>
-        <a href="https://docs.google.com/spreadsheet/ccc?key=0Aqj_mVmuz3Y8dHNhUVFDYlRaaXlyX0xYSTVnalV5ZlE#gid=0">
-          Javascript 2D canvas libraries comparison table</a>
-        <span class="year" title="year">2010-current</span>
+        <a href="http://kangax.github.io/es5-compat-table/es6">ECMAScript 6 compatibility table</a>
+        <span class="year current" title="year">2012-current</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/jstests">Various tests (Javascript, HTML, etc.)</a>
-        <span class="year" title="year">2009-current</span>
+        <a href="https://docs.google.com/spreadsheet/ccc?key=0Aqj_mVmuz3Y8dHNhUVFDYlRaaXlyX0xYSTVnalV5ZlE#gid=0">
+          Javascript 2D canvas libraries comparison table</a>
+        <span class="year current" title="year">2010-current</span>
+      </li>
+      <li>
+        <a href="http://kangax.github.io/jstests">Various tests (Javascript, HTML, etc.)</a>
+        <span class="year current" title="year">2009-current</span>
       </li>
       <li>
         <a href="http://fabricjs.com">Fabric.js</a>
-        <span class="year" title="year">2008-current</span>
+        <span class="year current" title="year">2008-current</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/es5-testsuite/">ECMAScript 5 official test suite (web-ported, runs immediately!)</a>
-        <span class="year" title="year">2010</span>
-      </li>
-      <li>
-        <a href="http://kangax.github.com/es5-compat-table">ECMAScript 5 compatibility table</a>
+        <a href="http://kangax.github.io/es5-compat-table">ECMAScript 5 compatibility table</a>
         (
-        <a href="http://kangax.github.com/es5-compat-table/non-standard">non-standard</a>,
-        <a href="http://kangax.github.com/es5-compat-table/strict-mode/">strict mode</a>
+        <a href="http://kangax.github.io/es5-compat-table/non-standard">non-standard</a>,
+        <a href="http://kangax.github.io/es5-compat-table/strict-mode/">strict mode</a>
         )
-        <span class="year" title="year">2010-current</span>
+        <span class="year current" title="year">2010-current</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/html-minifier">HTML minifier</a>
-        (<a href="http://kangax.github.com/html-minifier/tests">tests</a> )
-        <span class="year" title="year">2010-current</span>
+        <a href="http://kangax.github.io/html-minifier">HTML minifier</a>
+        (<a href="http://kangax.github.io/html-minifier/tests">tests</a> )
+        <span class="year current" title="year">2010-current</span>
+      </li>
+      <li>
+        <a href="http://kangax.github.io/es5-testsuite/">ECMAScript 5 official test suite (web-ported, runs immediately!)</a>
+        <span class="year year-2010" title="year">2010</span>
       </li>
       <li>
         <a href="http://shouldilearnjavascript.com">shouldilearnjavascript.com</a>
-        <span class="year" title="year">2009</span>
+        <span class="year year-2009" title="year">2009</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/nfe">Named function expressions demystified (article)</a>
-        <span class="year" title="year">2009</span>
+        <a href="http://kangax.github.io/nfe">Named function expressions demystified (article)</a>
+        <span class="year year-2009" title="year">2009</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/sputniktests-webrunner/">Sputniktests (ECMAScript 3 test suite) web runner</a>
-        <span class="year" title="year">2009</span>
+        <a href="http://kangax.github.io/sputniktests-webrunner/">Sputniktests (ECMAScript 3 test suite) web runner</a>
+        <span class="year year-2009" title="year">2009</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/domlint/">DOM Lint</a>
-        <span class="year" title="year">2009</span>
+        <a href="http://kangax.github.io/domlint/">DOM Lint</a>
+        <span class="year year-2009" title="year">2009</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/js-checker">Environment checker</a>
-        <span class="year" title="year">2009</span>
+        <a href="http://kangax.github.io/js-checker">Environment checker</a>
+        <span class="year year-2009" title="year">2009</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/cft">Common Feature Tests</a>
+        <a href="http://kangax.github.io/cft">Common Feature Tests</a>
         (
-          <a href="http://kangax.github.com/cft/style.html"><code>getStyleProperty</code> tests</a>,
-          <a href="http://kangax.github.com/iseventsupported/"><code>isEventSupported</code> tests</a>
+          <a href="http://kangax.github.io/cft/style.html"><code>getStyleProperty</code> tests</a>,
+          <a href="http://kangax.github.io/iseventsupported/"><code>isEventSupported</code> tests</a>
         )
-        <span class="year" title="year">2008</span>
+        <span class="year year-2008" title="year">2008</span>
       </li>
       <li>
-        <a href="http://kangax.github.com/proto.menu" class="proto-menu">Proto.Menu</a>
-        <span class="year" title="year">2007</span>
+        <a href="http://kangax.github.io/proto.menu" class="proto-menu">Proto.Menu</a>
+        <span class="year year-2007" title="year">2007</span>
       </li>
     </ul>
   </body>
